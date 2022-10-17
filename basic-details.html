@@ -82,20 +82,21 @@
                 <div class="col-md-12">
                     <form>
                         <!-- Choose Level -->
-                        <div class="form-heading-title p-3 bg-dark text-white">Choose Level</div>
-                        <div class="row mt-3">
+                        <div class="form-heading-title p-3 bg-success my-3 text-white w-50">Choose Level</div>
+                        <div class="row">
                             <div class="col-auto">
                             <label>Level<span class="text-danger">*</span></label>
                             <select id="inputState" class="form-select">
                                 <option>--Select Level--</option>
                                 <option>Under-Graduate Programmes</option>
                                 <option>Post-Graduate Programmes</option>
-                                </select>
+                            </select>
                             </div>
                         </div>
 
                         <!-- Education Details -->
-                        <div class="form-heading-title p-3 bg-dark text-white mt-4">Education Details</div>
+                        <div class="form-heading-title p-3 bg-success text-white my-3 w-50">Education Details</div>
+
                         <div class="form-sub-heading text-dark my-2">Class X</div>
                         <div class="row">
                             <div class="col-md-3 mb-2">
@@ -123,6 +124,149 @@
                                 <input type="text" class="form-control">
                             </div>
  
+                        </div>
+
+                        <div class="form-sub-heading text-dark my-2">Class XII</div>
+                        <div class="row">
+                            <div class="col-md-3 mb-2">
+                                <label>Board<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>School</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>Status<span class="text-danger">*</span></label>
+                                <select id="inputState" class="form-select">
+                                    <option>Passed</option>
+                                    <option>Appearing</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>Roll No.</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>Passing Year<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>City<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>Pincode<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-3 mb-2">
+                                <label>JEE Score</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                        <div class="form-sub-heading text-dark my-2">XII Results Declared ?<span class="text-danger">*</span></div>
+                        <div class="col-md-4 mb-2">
+                            <input type="radio" class="form-check-input">
+                            <label class="form-check-label">Yes (If Yes, then mention % in all subjects)</label>
+                            <br>
+                            <input type="radio" class="form-check-input">
+                            <label class="form-check-label">No (If No, then mention Pre-Board % in all subjects)</label>
+
+                        </div>
+                        <div class="col-md-8 mb-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Aggregate Percentage (Engg: PCM/PCB + English) / (Non-Engg: All subjects)<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Average of XII PCM Percentage<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="form-sub-heading text-dark my-2">Graduation</div>
+                        <div class="col-md-3 mb-2">
+                            <label>College Name<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>University Name<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>Course<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>Specialization<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>Passing Year<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>City<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <label>Pincode<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-sub-heading text-dark my-2">Graduation Results Declared ?<span class="text-danger">*</span></div>
+                            <div class="col-md-6 mb-2">
+                                <input type="radio" class="form-check-input">
+                                <label class="form-check-label">Yes (If Yes, then mention % in all semester)</label>
+                                <br>
+                                <input type="radio" class="form-check-input">
+                                <label class="form-check-label">No (If No, then mention % in till current semester)</label>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <label>Aggregate Percentage<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="form-heading-title p-3 bg-success text-white my-3 w-50">Personal Details</div>
+                            <div class="row">
+                                <div class="col-md-3 mb-2">
+                                    <div class="form-sub-heading text-dark my-2">Gender</div>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">Male</label>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">Female</label>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label"> Transgender</label>
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <div class="form-sub-heading text-dark my-2">Category</div>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">General</label>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">OBC</label>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">SC</label>
+                                    <input type="radio" class="form-check-input">
+                                    <label class="form-check-label">ST</label>
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <label>Date Of Birth<span class="text-danger">*</span></label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <label>Adhar No</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+
                         </div>
                         <div class="d-grid gap-2 col-12 mx-auto my-3">
                             <button type="submit" class="btn btn-danger">Save and Continue</button>
